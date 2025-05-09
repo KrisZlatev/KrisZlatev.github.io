@@ -1,0 +1,76 @@
+/* styles/globals.css */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #121212; /* dark gray background to soften the contrast */
+  color: #fff; /* white text by default */
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.15);
+}
+
+/* Styling the form container and form elements */
+form {
+  background-color: #1e1e1e; /* Darker background for form */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input, textarea, button {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #FFD700; /* Gold border color on focus */
+}
+
+button {
+  background-color: #FFD700;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #f1c40f;
+}
+
+h2, h3 {
+  color: #FFD700; /* Gold for headings */
+}
+
+/* Styling map container */
+.leaflet-container {
+  border-radius: 8px;
+}
+
+/* Specific to contact page form input fields */
+#name, #email, #phone, #message, #address {
+  width: 100%;
+  border-radius: 6px;
+  padding: 12px;
+  color: #fff;
+  background-color: #333;
+  border: 1px solid #555;
+}
